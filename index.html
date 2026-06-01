@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="a">
+<input id="b">
+
+<button onclick="add()">+</button>
+
+<h1 id="result"></h1>
+
+<script>
+function add(){
+  let x = Number(document.getElementById("a").value);
+  let y = Number(document.getElementById("b").value);
+
+  document.getElementById("result").innerHTML = x + y;
+}
+</script>
+
+</body>
+</html>
